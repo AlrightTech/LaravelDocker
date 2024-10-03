@@ -1,4 +1,148 @@
 
 /* BEGIN: Name - EMP_ID */
+/* Global styles */
+.fatima-main {
+    /* Setting a simple, clean font family and line spacing for readability */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+    /* Remove default margins and paddings for consistency */
+    margin: 0;
+    padding: 0;
+    
+    /* Light background color for the entire body */
+    background-color: #f4f4f4;
+}
+
+/* Utility class to add left and right spacing for content */
+.leftrightspace {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+/* Header section */
+header {
+    /* Dark background with light text */
+    background: #35424a;
+    color: #ffffff;
+    
+    /* Add padding for spacing and center-align text */
+    padding: 20px;
+    text-align: center;
+
+    /* Flexbox layout for aligning the profile picture and navigation */
+    display: flex;
+}
+
+/* Intro section within the header (Name and Title) */
+header .intro {
+    /* Take up 30% of the header width */
+    flex: 0.3;
+
+    /* No left margin and centered text */
+    margin-left: 0px;
+    text-align: center;
+
+    /* Top padding to align the text vertically */
+    padding-top: 40px;
+    color: gray;
+}
+
+/* Profile picture container */
+header .pic {
+    /* Take up 20% of the header width */
+    flex: 0.2;
+
+    /* Gray border around the profile picture */
+    border: 2px solid grey;
+    border-radius: 1px; 
+
+    /* Fixed width and automatic height for responsiveness */
+    width: 50px;
+    height: auto;
+
+    /* Align the picture more to the left */
+    margin-left: 140px;
+}
+
+/* Profile picture image */
+header .pic img {
+    /* Ensure the image scales properly */
+    width: 100px;
+    height: auto;
+}
+
+/* Header title (name) */
+header h1 {
+    /* Remove extra margin */
+    margin: 0;
+}
+
+/* Navigation styling */
+nav ul {
+    /* Remove default list styling and add padding for alignment */
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;
+
+    /* Adjust the position of navigation items */
+    margin-left: 50px;
+
+    /* Flexbox alignment */
+    flex: 0.2;
+}
+
+/* Navigation list items */
+nav ul li {
+    /* Display items in a row and add spacing between them */
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Navigation links */
+nav ul li a {
+    /* Set link color and remove default underline */
+    color: #ffffff;
+    text-decoration: none;
+
+    /* Change the link color to gray */
+    color: gray;
+}
+
+/* Main content section */
+.main .leftrightspace {
+    /* Add padding and margin for spacing */
+    padding: 20px;
+    margin: 10px;
+
+    /* White background for content with rounded corners */
+    background: #ffffff;
+    border-radius: 5px;
+    background-color: gray; /* Suggestion: Use consistent colors across the page */
+}
+
+/* Styling for individual projects */
+.project {
+    /* Add margin between projects */
+    margin: 20px 0;
+}
+
+/* Footer styling */
+.fatime-footer {
+    /* Add padding for spacing */
+    padding: 10px 0px;
+
+    /* Footer background to match the header for consistency */
+    background: #35424a;
+    color: #ffffff;
+
+    /* Stick footer to the bottom */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+    /* Gray text color for consistency */
+    color: gray;
+}
 
 /* END: Name - EMP_ID */

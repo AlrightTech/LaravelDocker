@@ -1,4 +1,92 @@
 
-/* BEGIN: Name - EMP_ID */
+/* BEGIN: Name Haider Ali - EMP_ID 357 */
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* END: Name - EMP_ID */
+/* Body and general settings */
+.haider-main {
+    font-family: 'Lato', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+  /* container setting styling */
+.haider-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: auto;
+    padding: 30px 20px;
+    margin-top: 50px !important;
+      text-align: center;
+}
+
+/* Header Section */
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header .profession {
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Profile Image */
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    object-fit: cover;
+}
+
+/* Personal Details */
+.details p {
+    margin: 10px 0;
+
+}
+
+.details a {
+    color: #555;
+    text-decoration: none;
+}
+
+.details a:hover {
+    text-decoration: underline;
+}
+
+/* Short Bio */
+.bio p {
+    margin: 20px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Call to Action Button */
+.cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.cta .btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* END: Name: Haider Ali - emp id 357 */

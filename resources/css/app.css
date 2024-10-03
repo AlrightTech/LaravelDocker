@@ -1,4 +1,56 @@
+/* BEGIN: Naveed-EMP-358 */
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+    --black-color: #000000;
+    --green-color: rgb(12, 228, 12);
+    --dark-gary: rgba(204, 197, 197, 0.872);
+}
 
-/* BEGIN: Name - EMP_ID */
+body {
+    font-family: "Urbanist", sans-serif;
+    min-height: 100vh;
+    background-color: var(--dark-gary);
+}
+.personal-details {
+    width: 80%;
+    min-height: 100vh;
+    padding: 1rem 0.7rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 0.9rem;
+}
+.profile-pic {
+    object-fit: cover;
+    max-width: 80%;
 
-/* END: Name - EMP_ID */
+    object-position: center;
+}
+.text-18-600 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.id-no {
+    font-weight: 700;
+    color: var(--green-color);
+}
+.text-14-500 {
+    font-size: 0.825rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 650px) {
+    .personal-details {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .profile-pic {
+        object-fit: cover;
+        max-width: 100%;
+
+        object-position: center;
+    }
+    div {
+        text-align: center;
+    }
+}
+/* END: Naveed-EMP-358 */

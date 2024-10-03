@@ -1,3 +1,55 @@
-/* BEGIN: Name - EMP_ID */
+/* BEGIN: Fatimah -  */
+    /* Portfolio page started */
 
-/* END: Name - EMP_ID */
+/* Defining variable color */
+
+:root {
+    --primary-color-: aliceblue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color-);
+}
+
+.leftspace {
+    padding-left: 100px;
+}
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+    padding: 20px 3%;
+    width: 100%;
+}
+
+.navbar .logo img {
+    width: 0px;
+    height: 0px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #18191F;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-weight: 200px;
+}
+
+/* Portfolio page ended */
+/* END: Fatimah -  */

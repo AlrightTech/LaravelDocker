@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="container">
-        {{-- Your code goes here --}}
-    </div>
+<h1> Abdul ahad qureshi</h1>
+</div>
 @endsection

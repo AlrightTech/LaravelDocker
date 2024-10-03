@@ -16,7 +16,7 @@
 
         <!-- Profile Image Section -->
         <div class="profile-image">
-            <img src="{{ asset('images/dashboard.jpeg') }}" alt="Sample Image">
+            <img src="{{ asset('assets/images/dashboard.jpeg') }}" alt="Sample Image">
 
         </div>
         <!-- Profile Image Section ended -->

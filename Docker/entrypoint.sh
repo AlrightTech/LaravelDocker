@@ -24,10 +24,10 @@ if [ "$role" = "app" ]; then
     php artisan cache:clear
     php artisan config:clear
     php artisan route:clear
-    php artisan serve --host=0.0.0.0 --port=${PORT:-8000} &
+    php artisan serve --host=0.0.0.0 --port=${PORT:-8000} 
 elif [ "$role" = "queue" ]; then
     echo "Running the queue..."
-    php artisan queue:work --verbose --tries=3 --timeout=180 &
+    php artisan queue:work --verbose --tries=3 --timeout=180 
 elif [ "$role" = "websocket" ]; then
     echo "Running the websocket server..."
     php artisan websockets:serve

@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div classfatima-main>
-    <div class="container">
+<div class="container">
+        <div classfatima-main>
        <!-- Header Section starts -->
 <header>
     <!-- Profile Picture container with class for spacing -->
     <div class="pic leftrightspace">
         <!-- Add alt text for accessibility -->
-        <img src="img.jpg" alt="Profile picture of Fatimah Abid">
+        <img src="{{ asset('assets/images/img.jpg') }}" alt="Sample Image">
     </div>
 
     <!-- Navigation Section -->

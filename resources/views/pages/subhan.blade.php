@@ -66,6 +66,7 @@
                                     <input type="file" accept="image/*">
                                 </div>
                             </div>
+                            
                         </div>
                         <!-- End - Image and Upload Container -->
 

@@ -1,4 +1,43 @@
 
-/* BEGIN: Name - EMP_ID */
-
-/* END: Name - EMP_ID */
+/* BEGIN: Name Maisam Ali - EMP_ID 246 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   
+   /* ........profile pic part   start...........  */
+   img{
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+   }
+    /*............ body part start ..... */
+    body{
+       font-family: verdana;
+       margin: 10% 10% 30% 10%;
+       background-color: antiquewhite;
+    }
+    .profolio{
+       background-color: aliceblue;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-evenly;
+       width: 500px;
+       height: 200px;
+       border: 2px solid black;
+       box-shadow: 4px 4px 10px rgb(157, 98, 98);
+    }
+    /* ........information part start.........  */
+   
+    .information{
+       border: 2px solid black;
+       box-shadow: 4px 4px 10px grey;
+       margin: 20px;
+       background-color: blanchedalmond;
+    }
+    h1{
+       color: blue;
+    }
+/* END: Name Maisam Ali - EMP_ID 246 */

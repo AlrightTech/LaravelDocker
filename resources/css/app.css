@@ -1,4 +1,81 @@
 
-/* BEGIN: Name - EMP_ID */
+/* BEGIN: Abdul Subhan - 131 */
+    /* Intro variables */
 
-/* END: Name - EMP_ID */
+:root {
+    --primary-color-: rgb(67, 67, 56);
+    --secondary-color-: rgb(168, 148, 201);
+}
+
+/* Intro started */
+
+/* Intro-main-card */
+.intro-card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Intro-main-heading */
+.main-heading {
+    color: var(--primary-color-);
+}
+
+/* Intro-main-image */
+.my-image {
+    height: 400px;
+    border-radius: 10%;
+    width: 100%;
+}
+
+/* Intro-main-link-style */
+.intro-link {
+    color: var(--secondary-color-);
+}
+
+/* Container for the file upload button */
+.upload-container {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: auto; /* Adjust to fit the button's width */
+    margin: auto; /* Center horizontally */
+}
+
+/* Wrapper to center the button both vertically and horizontally */
+.center-wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center;         
+    height: 100px;           
+}
+
+/* The actual hidden file input */
+.upload-container input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom button styling */
+.upload-btn {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.upload-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Intro ended */
+/* END: Abdul Subhan - 131 */

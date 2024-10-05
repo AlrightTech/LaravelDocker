@@ -41,6 +41,82 @@
     }
 /* END: Name Maisam Ali - EMP_ID 246 */
 
+/* BEGIN: Name Moiz Ali Hashmi - EMP_ID Portal not created */
+
+/* Start : Styles for the entire page */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0; 
+}
+/* End : Styles for the entire page */
+
+/* Start : Banner container styles */
+.banner {
+    display: flex;
+    align-items: center; 
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    padding: 20px; 
+    max-width: 800px;
+    width: 90%; 
+}
+/* END : Banner container styles */
+
+/* Start : Styles for the profile image */
+.profile-img img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+/* END : Styles for the profile image */
+
+/* Start : Styles for the information section */
+.info {
+    flex: 1;
+}
+/* END :Styles for the information section */
+
+/* Start : Name styling */
+.info h1 {
+    margin: 0; 
+    font-size: 2em;
+    color: #333; 
+}
+/* END : Name styling */
+
+/* Start : Paragraph styling */
+.info p {
+    margin: 5px 0; 
+    color: #666; 
+}
+/* END : Paragraph styling */
+
+/* Start : Container for social media links */
+.social-links {
+    margin-top: 10px; 
+}
+/* END : Container for social media links */
+
+/* Start : Styling for social media links */
+.social-links a {
+    text-decoration: none; 
+    color: #007bff; 
+    margin-right: 15px;
+}
+/* END : Styling for social media links */
+
+/* END: Name Moiz Ali Hashmi - EMP_ID Portal not created */
+
+
 /* Begin:Ali Haider EM-192  */
  .portfolio {
     background-color: rgb(228, 253, 245);

@@ -1,3 +1,45 @@
+/* BEGIN: Name Maisam Ali - EMP_ID 246 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   
+   /* ........profile pic part   start...........  */
+   img{
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+   }
+    /*............ body part start ..... */
+    body{
+       font-family: verdana;
+       margin: 10% 10% 30% 10%;
+       background-color: antiquewhite;
+    }
+    .profolio{
+       background-color: aliceblue;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-evenly;
+       width: 500px;
+       height: 200px;
+       border: 2px solid black;
+       box-shadow: 4px 4px 10px rgb(157, 98, 98);
+    }
+    /* ........information part start.........  */
+   
+    .information{
+       border: 2px solid black;
+       box-shadow: 4px 4px 10px grey;
+       margin: 20px;
+       background-color: blanchedalmond;
+    }
+    h1{
+       color: blue;
+    }
+/* END: Name Maisam Ali - EMP_ID 246 */
 
 /* BEGIN: Name Moiz Ali Hashmi - EMP_ID Portal not created */
 
@@ -75,3 +117,29 @@ body {
 /* END: Name Moiz Ali Hashmi - EMP_ID Portal not created */
 
 
+/* Begin:Ali Haider EM-192  */
+ .portfolio {
+    background-color: rgb(228, 253, 245);
+}
+
+.intro-img {
+    padding: 30px;
+    padding-left: 460px;
+}
+
+.intro-img img {
+    display: flex;
+    justify-content: center;
+    border-radius: 550px;
+}
+
+.info-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: red;
+}
+/* End:Ali Haider EM-192 */
